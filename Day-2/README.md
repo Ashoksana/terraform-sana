@@ -105,6 +105,10 @@ resources.tf: Defines the actual resources to be managed by Terraform.
 variables.tf: Defines variables that can be used throughout the other files.
 By organizing your Terraform configuration into these files, you maintain clarity and separation of concerns, making your code easier to manage and scale.
 
+terraform init
+terraform plan
+terraform apply
+
 ## Conclusion
 Day 2 introduces you to a structured way of organizing your Terraform configurations. This approach allows for better scalability, maintainability, and collaboration within teams as your infrastructure grows in complexity.
 
