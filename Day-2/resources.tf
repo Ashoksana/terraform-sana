@@ -6,12 +6,3 @@ resource "aws_instance" "web" {
     Name = "WebServer"
   }
 }
-
-resource "aws_s3_bucket" "bucket" {
-  bucket = "my-app-bucket"
-  acl    = "private"
-  
-  tags = {
-    Name = "MyAppBucket"
-  }
-}

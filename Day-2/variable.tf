@@ -21,8 +21,9 @@ variable "instance_type" {
   default     = "t2.micro"
 }
 
+# Variable for AWS region
 variable "region" {
-    description = "The aws region"
-    type = string
-    default = "ap-south-1"
+  description = "The AWS region"
+  type        = string
+  default     = "ap-south-1"
 }
