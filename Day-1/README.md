@@ -8,7 +8,9 @@ What is Terraform?
 Terraform is an open-source Infrastructure as Code (IaC) tool developed by HashiCorp. It allows you to define, provision, and manage infrastructure using a high-level configuration language called HashiCorp Configuration Language (HCL) or JSON.
 
 Key Benefits of Terraform:
-Declarative Syntax: Describe the desired state of your infrastructure, and Terraform will handle the creation, modification, and deletion of resources to achieve that state.
+
+Declarative Syntax: 
+  Describe the desired state of your infrastructure, and Terraform will handle the creation, modification, and deletion of resources to achieve that state.
 Provider Agnostic: Terraform supports multiple cloud providers, such as AWS, Azure, Google Cloud, and more, making it flexible and versatile.
 State Management: Terraform maintains a state file to track the resources it manages, enabling it to detect changes and apply updates incrementally.
 Plan and Apply: Terraform allows you to preview changes (with terraform plan) before applying them (with terraform apply), reducing the risk of unexpected changes.
@@ -49,8 +51,12 @@ resource "aws_instance" "example" {
 
 Commands Overview
 terraform init: Initializes the Terraform working directory.
+
 terraform plan: Creates an execution plan, previewing the changes that Terraform will make.
+
 terraform apply: Applies the changes required to reach the desired state.
+
 terraform destroy: Destroys the Terraform-managed infrastructure.
-Conclusion
+
+#Conclusion
 Day 1 covers the essentials to get you started with Terraform. As you progress, you’ll learn more about modules, state management, remote backends, and best practices for building scalable, maintainable infrastructure.
