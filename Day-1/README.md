@@ -1,5 +1,7 @@
-Terraform Day 1 - Introduction and Basics
-Overview
+#Terraform Day 1 - Introduction and Basics
+
+#Overview
+
 Welcome to Day 1 of Terraform! Today, we’ll cover the basics of Terraform, including its purpose, how it works, and the fundamental concepts you need to understand to get started with infrastructure as code (IaC).
 
 What is Terraform?
