@@ -18,7 +18,7 @@ variable "aws_secret_key" {
 variable "instance_type" {
   description = "Type of instance to launch"
   type        = string
-  default     = "t2.micro"
+  default     = "t2.nano"
 }
 
 # Variable for AWS region
